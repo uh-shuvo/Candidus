@@ -35,3 +35,48 @@ nav>ul {
     list-style: none;
     gap: 20px;
 }
+
+/* nav end 
+============== */
+.section--primary {
+    padding: 200px 0;
+    /* background-color: gray; */
+}
+
+.section_text {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.mini-title {
+    flex-shrink: 0;
+}
+
+.mini-title {
+    color: #FF214F;
+}
+
+.line {
+    height: 1px;
+    background-color: red;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.text--area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 35px;
+}
+
+.text--title {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 400;
+}
+
+.count--area {
+    font-size: 25px;
+}
