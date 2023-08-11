@@ -80,3 +80,15 @@ nav>ul {
 .count--area {
     font-size: 25px;
 }
+
+/* section--primary end 
+====================== */
+.photo_gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.photo_gallery img {
+    width: 100%;
+    height: 100%;
+}
