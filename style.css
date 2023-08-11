@@ -116,3 +116,55 @@ nav>ul {
     width: 100%;
     align-items: center;
 }
+
+/* gallary end 
+=============== */
+.line_2 {
+    width: 100%;
+    height: 2px;
+    background: #919191;
+}
+
+.print_media {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.icon i {
+    margin: 0 10px;
+}
+
+@media only screen and (max-width:576px) {
+    .container {
+        background-color: rgb(230, 217, 217);
+
+    }
+
+    .text--title {
+        font-size: 2rem;
+    }
+
+    .count--area {
+        visibility: hidden;
+    }
+
+    .section--primary,
+    .section--secondary,
+    .section--tertiary {
+        padding: 100px 0;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .photo_gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .photo_gallery img {
+        width: 100%;
+    }
+}
