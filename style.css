@@ -38,7 +38,9 @@ nav>ul {
 
 /* nav end 
 ============== */
-.section--primary {
+.section--primary,
+.section--secondary,
+.section--tertiary {
     padding: 200px 0;
     /* background-color: gray; */
 }
@@ -91,4 +93,26 @@ nav>ul {
 .photo_gallery img {
     width: 100%;
     height: 100%;
+}
+
+/* section_img end 
+================= */
+.section_black {
+    background-color: black;
+    width: 100%;
+}
+
+.color-tertiary {
+    color: #EBEBEB;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_img {
+    width: 100%;
+    align-items: center;
 }
